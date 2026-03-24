@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本PBer連盟(大げさ)</title>
+    <style>
+:root {
+    --primary-color: #b71c1c; /* 深みのある赤（ダークモード適正） */
+    --bg-color: #0a0a0a;      /* 極限まで抑えた背景 */
+    --text-color: #d1d1d1;    /* 目に優しいグレーがかった白 */
+    --card-bg: #121212;       /* カードの浮き上がりを表現する黒 */
+    --border-color: #262626;  /* 繊細な境界線 */
+    --discord-color: #5865F2;
+}
+
+body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.02em;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color); /* 影ではなく線で形を作る */
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300; /* 細めのウェイトでモダンに */
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--primary-color); /* 太線を細線へ */
+    padding-bottom: 15px;
+    letter-spacing: 0.1em;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-left: 2px solid var(--primary-color);
+    padding-left: 12px;
+    margin-top: 35px;
+    color: #ffffff;
+}
+
+ul {
+    padding-left: 20px;
+    color: #a0a0a0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Discordボタン - 彩度を少し落として馴染ませる */
+.discord-btn {
+    display: block;
+    text-align: center;
+    background: var(--discord-color);
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 30px 0;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.discord-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.links {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.links a {
+    color: #4da3ff; /* ダーク背景で見やすい青 */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    color: #80bfff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 50px;
+    color: #444;
+    letter-spacing: 0.05em;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>日本PBer連盟<span style="font-size: 0.6em; vertical-align: middle;">(大げさ)</span></h1>
+        <p class="subtitle">〜 ポーランドボーラーのための集い 〜</p>
+
+        <p>日本PBer連盟は、ポーランドボーラーの技術向上と、クリエイター同士の交流を促進することを目的としたコミュニティです。</p>
+
+        <h2>活動内容</h2>
+        <ul>
+            <li><strong>技術交流所：</strong> 描き方や動画編集のコツを共有</li>
+            <li><strong>コラボ募集所：</strong> 一緒に作品を作る仲間探し</li>
+        </ul>
+
+        <a href="https://discord.gg/w6dsRFvazx" class="discord-btn">
+            Discordサーバーに参加する
+        </a>
+
+        <div class="links">
+            <h2>会長のリンク集</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/@PBer_Club" target="_blank">YouTubeチャンネル</a></li>
+                <li><a href="https://mmrc.onrender.com/main.html" target="_blank">公式サイト</a></li>
+            </ul>
+        </div>
+
+        <footer>
+            &copy; 2026 日本PBer連盟(大げさ)
+        </footer>
+    </div>
+</body>
+</html>
